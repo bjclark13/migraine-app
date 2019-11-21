@@ -13,16 +13,28 @@ export class UserSettingsService {
     this.isDarkMode = this.getUserSetting('dark');
   }
 
+
   setLayout(key: string, value: boolean) {
-    console.log(key, value);
     if ( !this._userSettings.layouts ) {
       this._userSettings.layouts = {[key]: value};
     } else {
       this._userSettings.layouts[key] = value;
     }
 
-    console.log(this._userSettings);
     this.saveSettings();
+  }
+
+  getLayouts() {
+    return this.getUserSetting('layouts');
+  }
+
+  shouldShowLayout(key: string) {
+    const layouts = this.getLayouts();
+    if ( !layouts ) {
+      return true;
+    } else {
+      return layouts[key];
+    }
   }
 
   getUserSettings() {

@@ -9,10 +9,10 @@ import { UserSettingsService } from '../user-settings.service';
 export class UserSettingsComponent implements OnInit {
   _config: UserSettingsService;
   dark: boolean;
+  dailyEncouragement: boolean;
 
   constructor(config: UserSettingsService) {
     this._config = config;
-    this.dark = config.getUserSetting('dark');
   }
 
   toggleDarkMode() {
@@ -20,5 +20,7 @@ export class UserSettingsComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.dailyEncouragement = this._config.shouldShowLayout('daily-encouragement');
+    this.dark = this._config.getUserSetting('dark');
   }
 }
