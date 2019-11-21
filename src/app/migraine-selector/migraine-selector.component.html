@@ -1,0 +1,24 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Rate Your Pain</mat-card-title>
+        <mat-card-subtitle>On A Scale of 1-10</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        <mat-slider min="1" [max]="max" step="1" value=[value] change="getFeelingLabel()" thumbLabel tickInterval="1"
+            [(ngModel)]="value">
+        </mat-slider>
+
+        <div class="pain-meter">
+            <p *ngIf="value === 1">No Pain!</p>
+            <p *ngIf="value <= 4 && value > 1">In pain, functioning normally</p>
+            <p *ngIf="value === 5">Can still function, but need to slow down</p>
+            <p *ngIf="value === 6">Need to cancel plans, lay down</p>
+            <p *ngIf="value === 7">In bed all day</p>
+            <p *ngIf="value > 7">Need medical attention (ER, Urgent Care)</p>
+        </div>
+
+        <mat-card-actions>
+            <button mat-raised-button color="primary">Save</button> </mat-card-actions>
+    </mat-card-content>
+</mat-card>

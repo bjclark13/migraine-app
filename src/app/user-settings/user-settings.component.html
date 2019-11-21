@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-title>Settings</mat-card-title>
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item>
+                <mat-slide-toggle [(ngModel)]="dark" (change)="toggleDarkMode()"> Dark Mode </mat-slide-toggle>
+                <mat-divider></mat-divider>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-slide-toggle> Show Daily Encouragement Section </mat-slide-toggle>
+                <mat-divider></mat-divider>
+            </mat-list-item>
+            <mat-list-item>
+                <mat-slide-toggle> Show Goals Section </mat-slide-toggle>
+                <mat-divider></mat-divider>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-slide-toggle> Show Daily Encouragement </mat-slide-toggle>
+                <mat-divider></mat-divider>
+            </mat-list-item>
+        </mat-list>
+    </mat-card-content>
+</mat-card>

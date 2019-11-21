@@ -1,25 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-import { UserSettingsService } from './user-settings.service';
-
+import { UserSettingsService } from '../user-settings.service';
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-home-page',
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.scss']
 })
+export class HomePageComponent implements OnInit {
 
-export class AppComponent {
   title = 'The Migraine App';
   dark : boolean;
   layouts : {} | false;
 
-  public _config : UserSettingsService;
+  private _config : UserSettingsService;
 
   constructor(config: UserSettingsService) {
     this._config = config;
-
-    this.dark = this._config.getUserSetting('dark');
-    this.getLayouts();
   }
 
   toggleDarkMode() {
@@ -38,4 +34,10 @@ export class AppComponent {
       return this.layouts[key];
     }
   }
+
+  ngOnInit() {
+    this.dark = this._config.getUserSetting('dark');
+    this.getLayouts();
+  }
+
 }
