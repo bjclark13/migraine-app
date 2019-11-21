@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1574366845330,
+  "timestamp": 1574366968435,
   "index": "/migraine-app/index.html",
   "assetGroups": [
     {
@@ -52,7 +52,7 @@
     "/migraine-app/index.html": "24f429eaf03212ec7baa5811b2ee07c6eaf11ad2",
     "/migraine-app/main-es2015.91f2bba1a05fe0471cab.js": "6b93c3a63aff95b399b4a2f62fd1e2ec218e84e8",
     "/migraine-app/main-es5.91f2bba1a05fe0471cab.js": "245793fa85abeaec71ba76c88dad48465d7e86a5",
-    "/migraine-app/manifest.webmanifest": "396bebc924960205d1e5be3cc4b9dc4aaed4089f",
+    "/migraine-app/manifest.webmanifest": "5deee23b4eedd70a4af04ecc41649f027658aa8f",
     "/migraine-app/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/migraine-app/polyfills-es5.6696c533341b95a3d617.js": "45c51483238468881240579c3fdecd19144cff17",
     "/migraine-app/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
