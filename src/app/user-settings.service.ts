@@ -5,12 +5,24 @@ import { getTestBed } from '@angular/core/testing';
   providedIn: 'root'
 })
 export class UserSettingsService {
-  private _userSettings: {};
+  private _userSettings: {layouts?: {}};
   isDarkMode: boolean;
   constructor() {
     this.getUserSettings();
 
     this.isDarkMode = this.getUserSetting('dark');
+  }
+
+  setLayout(key: string, value: boolean) {
+    console.log(key, value);
+    if ( !this._userSettings.layouts ) {
+      this._userSettings.layouts = {[key]: value};
+    } else {
+      this._userSettings.layouts[key] = value;
+    }
+
+    console.log(this._userSettings);
+    this.saveSettings();
   }
 
   getUserSettings() {

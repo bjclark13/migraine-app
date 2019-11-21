@@ -13,6 +13,11 @@ main>.inner {
     flex: 1;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .theme {
     display: flex;
     flex-direction: column;

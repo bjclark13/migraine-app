@@ -21,7 +21,4 @@ export class UserSettingsComponent implements OnInit {
 
   ngOnInit() {
   }
-
-
-
 }

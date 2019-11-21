@@ -2,18 +2,25 @@
 
   <mat-toolbar color="primary">
     <mat-toolbar-row>
-      <h1 class="toolbar-title"> {{title}} </h1>
+
+      <a routerLink="/" class="toolbar-title">
+        <h1> {{title}} </h1>
+      </a>
       <!-- <mat-slide-toggle [(ngModel)]="dark">Dark Mode</mat-slide-toggle> -->
       <mat-icon *ngIf="dark" (click)="toggleDarkMode()" class="example-icon" aria-hidden="false" aria-label="Dark Mode">
         nights_stay
       </mat-icon>
-      <mat-icon *ngIf="!dark" (click)="toggleDarkMode()" class="example-icon" aria-hidden="false" aria-label="Light Mode">
+
+      <mat-icon *ngIf="!dark" (click)="toggleDarkMode()" class="example-icon" aria-hidden="false"
+        aria-label="Light Mode">
         wb_sunny
       </mat-icon>
 
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Light Mode">
-        settings_applications
-      </mat-icon>
+      <a routerLink="/settings">
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Light Mode">
+          settings_applications
+        </mat-icon>
+      </a>
     </mat-toolbar-row>
   </mat-toolbar>
 
