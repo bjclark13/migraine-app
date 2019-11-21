@@ -5,7 +5,7 @@
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/migraine-app",
-  "start_url": "/migraine-app",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
