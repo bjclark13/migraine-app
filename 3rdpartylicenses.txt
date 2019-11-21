@@ -89,7 +89,15 @@ THE SOFTWARE.
 
 @angular/material/card
 
+@angular/material/core
+
+@angular/material/divider
+
 @angular/material/icon
+
+@angular/material/list
+
+@angular/material/slide-toggle
 
 @angular/material/slider
 

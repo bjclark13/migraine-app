@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1574367030639,
+  "timestamp": 1574370765816,
   "index": "/migraine-app/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/migraine-app/favicon.ico",
         "/migraine-app/index.html",
-        "/migraine-app/main-es2015.91f2bba1a05fe0471cab.js",
-        "/migraine-app/main-es5.91f2bba1a05fe0471cab.js",
+        "/migraine-app/main-es2015.f3894b38b717b9a4c26b.js",
+        "/migraine-app/main-es5.f3894b38b717b9a4c26b.js",
         "/migraine-app/manifest.webmanifest",
         "/migraine-app/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/migraine-app/polyfills-es5.6696c533341b95a3d617.js",
         "/migraine-app/runtime-es2015.edb2fcf2778e7bf1d426.js",
         "/migraine-app/runtime-es5.edb2fcf2778e7bf1d426.js",
-        "/migraine-app/styles.a3b7e39745a1a7712baf.css"
+        "/migraine-app/styles.fa962096bdc0c72c1b3b.css"
       ],
       "patterns": []
     },
@@ -49,15 +49,15 @@
     "/migraine-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/migraine-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/migraine-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/migraine-app/index.html": "24f429eaf03212ec7baa5811b2ee07c6eaf11ad2",
-    "/migraine-app/main-es2015.91f2bba1a05fe0471cab.js": "6b93c3a63aff95b399b4a2f62fd1e2ec218e84e8",
-    "/migraine-app/main-es5.91f2bba1a05fe0471cab.js": "245793fa85abeaec71ba76c88dad48465d7e86a5",
+    "/migraine-app/index.html": "f9aed334cfc20302478f10be3b9b390ec5290a87",
+    "/migraine-app/main-es2015.f3894b38b717b9a4c26b.js": "57b78dc83f42644213676391de5617022535da45",
+    "/migraine-app/main-es5.f3894b38b717b9a4c26b.js": "b31c71148ca2239e1254a3ccb0dc778cb927b299",
     "/migraine-app/manifest.webmanifest": "1227a9e3204fc2a2089a4ece366938115adaaa95",
     "/migraine-app/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/migraine-app/polyfills-es5.6696c533341b95a3d617.js": "45c51483238468881240579c3fdecd19144cff17",
     "/migraine-app/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/migraine-app/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/migraine-app/styles.a3b7e39745a1a7712baf.css": "6cf664ab4d9890ee1f470ab2dc218a7a87c1b2a3"
+    "/migraine-app/styles.fa962096bdc0c72c1b3b.css": "6cf664ab4d9890ee1f470ab2dc218a7a87c1b2a3"
   },
   "navigationUrls": [
     {
